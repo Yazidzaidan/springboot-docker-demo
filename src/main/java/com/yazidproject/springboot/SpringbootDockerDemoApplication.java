@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootDockerDemoApplication {
 
-	@GetMapping("/welcome")
+	@GetMapping("/welcome") //Alamat website localhost
 	public String welcome(){
 		return "Spring Boot Docker Demo";
 	}
