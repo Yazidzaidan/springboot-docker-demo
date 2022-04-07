@@ -15,6 +15,7 @@ public class SpringbootDockerDemoApplication {
 	}
 
 	public static void main(String[] args) {
+		System.getProperties().put("server.port", 8081);
 		SpringApplication.run(SpringbootDockerDemoApplication.class, args);
 	}
 
