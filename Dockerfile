@@ -5,7 +5,7 @@ LABEL maintainer="yazidproject.com"
 
 ADD target/springboot-docker-demo-0.0.1-SNAPSHOT.jar springboot-docker-demo.jar
 
-EXPOSE 8085
+EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "springboot-docker-demo.jar"]
 

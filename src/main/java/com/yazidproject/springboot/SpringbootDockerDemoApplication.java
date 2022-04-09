@@ -11,7 +11,7 @@ public class SpringbootDockerDemoApplication {
 
 	@GetMapping("/welcome") //Alamat website localhost
 	public String welcome(){
-		return "Spring Boot Docker Demo";
+		return "Spring Boot Docker Demo, created by Yazid";
 	}
 
 	public static void main(String[] args) {
